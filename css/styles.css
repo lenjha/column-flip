@@ -1,0 +1,122 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  background: salmon;
+  height: 5vh;
+  width: 30vw;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: red;
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.name {
+  background: pink;
+  height: 3vh;
+  width: 50%;
+  margin: 1vh;
+  float: right;
+}
+
+.nav-bar {
+  background: lightyellow;
+  height: 4vh;
+}
+
+.link-1, .link-2, .link-3, .link-4 {
+  background: tan;
+  height: 100%;
+  width: 22vw;
+  margin-right: 1vh;
+  float: left;
+}
+
+.header {
+  background: lightblue;
+  height: 50vh;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+p {
+  font-size: 11px;
+}
+
+.main-image {
+  background: blue;
+  border-radius: 50%;
+  height: 159px;
+  width: 159px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content {
+  background: lightgreen;
+  height: 100vh;
+}
+
+.gallery {
+  background: green;
+  height: 50vh;
+}
+
+.img-1, .img-2, .img-3 {
+  background: violet;
+  float: left;
+  height: 30%;
+  width: 100vw;
+  margin: 1.4% 0;
+}
+
+.text {
+  background: orange;
+  height: 50vh;
+}
+
+.text h4 {
+  font-size: 13px;
+  margin: 3px;
+}
+
+.text p {
+  font-size: 9px;
+  margin: 0;
+  display: block;
+  float: left;
+}
+
+.col-right p {
+  margin-left: 15%;
+}
+
+
+.col-left {
+  background: brown;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.col-right {
+  background: beige;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.square {
+  background: #ffb8b8;
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin: 2px;
+}
