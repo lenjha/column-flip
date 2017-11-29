@@ -84,20 +84,14 @@ p {
 
 .text h4 {
   font-size: 13px;
-  margin: 3px;
+  margin: 0px;
+  /* float: left; */
 }
 
 .text p {
   font-size: 9px;
   margin: 0;
-  display: block;
-  float: left;
 }
-
-.col-right p {
-  margin-left: 15%;
-}
-
 
 .col-left {
   background: brown;
@@ -113,10 +107,93 @@ p {
   float: left;
 }
 
+.content-1, .content-2, .content-3 {
+  float: left;
+
+}
+
+.col-right p {
+  /* float: left; */
+}
+
+.content-text {
+    float: right;
+    width: 85%;
+}
+
 .square {
   background: #ffb8b8;
-  width: 18px;
-  height: 18px;
+  width: 10%;
+  height: 34px;
   float: left;
-  margin: 2px;
+  margin: 6px;
 }
+
+.text {
+  display: none;
+}
+
+@media screen and (min-width: 750px) {
+  .logo {
+    float: left;
+  }
+
+  .text {
+    display: block;
+  }
+
+  .nav-bar {
+    height: 4vh;
+    float: left;
+    width: 50vw;
+    margin-left: 20vw;
+  }
+
+  .link-1, .link-2, .link-3, .link-4 {
+    background: tan;
+    height: 100%;
+    width: 20%;
+    float: left;
+  }
+
+  .header {
+    clear: both;
+    height: 30vh;
+  }
+
+  h3 {
+    font-size: 17px;
+    margin-left: 10px 0;
+  }
+
+  .header p {
+    font-size: 11px;
+    float: left;
+    margin-right: 65%;
+    margin-left: 10px;
+  }
+
+  .main-image {
+    background: blue;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-right: 10%;
+  }
+
+  .gallery {
+    background: green;
+    height: 15vh;
+  }
+
+  .img-1, .img-2, .img-3 {
+    background: violet;
+    float: left;
+    height: 100%;
+    width: 33%;
+    margin: 0;
+  }
+
+  .img-2 {
+    margin: 0 .5%;
+  }
